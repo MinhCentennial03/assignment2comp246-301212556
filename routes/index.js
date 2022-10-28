@@ -9,27 +9,29 @@ router.get('/', function(req, res, next) {
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home', });
+  res.render('home.ejs', { title: 'Home', });
 });
 /* GET About page. */
 
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About', });
+  res.render('aboutme.ejs', { title: 'About', });
 });
+
+
 /* GET Project page. */
 
 router.get('/projects', function(req, res, next) {
-  res.render('index', { title: 'Project', });
+  res.render('project.ejs', { title: 'Project', });
 });
 /* GET Service page. */
 
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Service', });
+  res.render('servicepg.ejs', { title: 'Service', });
 });
 /* GET contact page. */
 
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact', });
+  res.render('contactpage.ejs', { title: 'Contact', });
 });
 
 
