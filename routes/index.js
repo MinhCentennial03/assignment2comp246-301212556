@@ -47,6 +47,23 @@ router.post('/register', indexController.processRegisterPage);
 module.exports = router;
 
 
+router.get('/contactpg', indexController.displayRegisterPage);
+
+/* POST Router for processing the register Page*/
+router.post('/contactpg', indexController.processRegisterPage);
+
+
+router.get('/editpg', indexController.displayRegisterPage);
+
+/* POST Router for processing the register Page*/
+router.post('/editpg', indexController.processRegisterPage);
+module.exports = router;
+
+
+module.exports = router;
+
+
+
 router.get('/logout', indexController.performLogout);
 
 module.exports = router;
