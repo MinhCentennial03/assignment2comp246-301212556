@@ -23,7 +23,6 @@
   },
   "description": "assignment",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MinhCentennial03/COMP229-F2020-WEEK3.git"
